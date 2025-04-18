@@ -1,0 +1,54 @@
+{
+  "assignments": [
+    {
+      "title": "Microsoft Fabric xxx",
+      "questions": [
+        {
+          "question": "You have access to a historical dataset that contains the monthly expenses of the marketing department. You want to generate predictions of the expenses for the coming month. What task do you need to perform to predict the expenses for the coming month?",
+          "options": ["Classification", "Regression", "Forecasting"],
+          "answer": "Forecasting"
+        },
+        {
+          "question": "Which feature in Microsoft Fabric should you use to review the results of MLflow's tracking through a user interface?",
+          "options": ["Notebooks", "Experiments", "Models"],
+          "answer": "Experiments"
+        },
+        {
+          "question": "Which feature in Microsoft Fabric should you use to accelerate data exploration and cleansing?",
+          "options": ["Dataflows", "Data Wrangler", "Lakehouse"],
+          "answer": "Data Wrangler"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Fabric Basics",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Microsoft Fabric?",
+          "options": ["Design", "Data integration", "Gaming"],
+          "answer": "Data integration"
+        },
+        {
+          "question": "Which component helps in creating reports?",
+          "options": ["Power BI", "Azure DevOps", "Excel"],
+          "answer": "Power BI"
+        }
+      ]
+    },
+    {
+      "title": "Advanced ML with Fabric",
+      "questions": [
+        {
+          "question": "Which feature in Microsoft Fabric should you use to review the results of MLflow's tracking?",
+          "options": ["Experiments", "Notebooks", "Dataflows"],
+          "answer": "Experiments"
+        },
+        {
+          "question": "Which Fabric tool accelerates data exploration?",
+          "options": ["Data Wrangler", "Lakehouse", "Spark"],
+          "answer": "Data Wrangler"
+        }
+      ]
+    }
+  ]
+}
