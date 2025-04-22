@@ -21,6 +21,119 @@
       ]
     },
     {
+      "title": "Administer a Microsoft Fabric environment ",
+      "questions": [
+        {
+          "question": "Which of the following statements best describes the concept of capacity in Fabric?",
+          "options": [
+            "Capacity refers to a dedicated space for organizations to create, store, and manage Fabric items.",
+            "Capacity defines the ability of a resource to perform an activity or to produce output.",
+            "Capacity is a collection of items that are logically grouped together."
+          ],
+          "answer": "Capacity defines the ability of a resource to perform an activity or to produce output."
+        },
+        {
+          "question": "Which of the following statements is true about the difference between promotion and certification in Fabric?",
+          "options": [
+            "Promotion and certification both allow any workspace member to endorse content.",
+            "Promotion requires a higher level of permissions than certification.",
+            "Certification must be enabled in the tenant by the admin, while promotion can be done by a workspace member."
+          ],
+          "answer": "Certification must be enabled in the tenant by the admin, while promotion can be done by a workspace member."
+        }
+      ]
+    },
+    {
+      "title": "Microsoft Fabric - Data Ingestion & Warehouse Quiz",
+      "questions": [
+        {
+          "question": "What are the four data ingestion options available in Microsoft Fabric for loading data into a data warehouse?",
+          "options": [
+            "COPY (Transact-SQL) statement, data pipelines, dataflows, and cross-warehouse.",
+            "COPY (Transact-SQL) statement, data pipelines, dataflows, and Data Wrangler.",
+            "COPY (Transact-SQL) statement, data pipelines, dataflows, and cross-platform ingestion."
+          ],
+          "answer": "COPY (Transact-SQL) statement, data pipelines, dataflows, and cross-warehouse."
+        },
+        {
+          "question": "What are the supported data sources and file formats for the COPY (Transact-SQL) statement in Warehouse?",
+          "options": [
+            "Azure Data Lake Storage (ADLS) Gen2 and Azure Blob Storage, with PARQUET and CSV file formats.",
+            "Azure Data Lake Storage (ADLS) Gen1 and Azure Blob Storage, with PARQUET and CSV file formats.",
+            "Azure Data Lake Storage (ADLS) Gen2 and Azure Blob Storage, with ORC and CSV file formats."
+          ],
+          "answer": "Azure Data Lake Storage (ADLS) Gen2 and Azure Blob Storage, with PARQUET and CSV file formats."
+        },
+        {
+          "question": "What is the recommended minimum file size when working with external data on files in Microsoft Fabric?",
+          "options": ["At least 4 MB.", "At least 1 MB.", "At least 10 MB."],
+          "answer": "At least 4 MB."
+        }
+      ]
+    },
+
+    {
+      "title": "Microsoft Fabric - Data Warehousing Basics",
+      "questions": [
+        {
+          "question": "What is the primary language used for querying a data warehouse?",
+          "options": ["Python", "SQL", "C#"],
+          "answer": "SQL"
+        },
+        {
+          "question": "Why is indexing important in a data warehouse?",
+          "options": [
+            "It makes the data warehouse look more organized.",
+            "It speeds up data retrieval times.",
+            "It helps in cleaning the data."
+          ],
+          "answer": "It speeds up data retrieval times."
+        },
+        {
+          "question": "What is the purpose of a fact table in a data warehouse?",
+          "options": [
+            "To store raw data.",
+            "To store the results of calculations.",
+            "To store metadata."
+          ],
+          "answer": "To store the results of calculations."
+        }
+      ]
+    },
+
+    {
+      "title": "Microsoft Fabric - Monitoring & Performance",
+      "questions": [
+        {
+          "question": "You want to monitor capacity unit consumption in your Fabric data warehouse. What tools should you use?",
+          "options": [
+            "Microsoft Azure Monitor",
+            "Microsoft Fabric Capacity Metrics app",
+            "Microsoft Azure Data Studio."
+          ],
+          "answer": "Microsoft Fabric Capacity Metrics app"
+        },
+        {
+          "question": "Which dynamic management view provides details about SQL commands running in the data warehouse?",
+          "options": [
+            "sys.dm_exec_requests",
+            "sys.dm_exec_connections",
+            "sys.dm_exec_sessions"
+          ],
+          "answer": "sys.dm_exec_requests"
+        },
+        {
+          "question": "Which view should you use to identify commonly run commands in your data warehouse?",
+          "options": [
+            "queryinsights.exec_requests_history",
+            "queryinsights.long_running_queries",
+            "queryinsights.frequently_run_queries"
+          ],
+          "answer": "queryinsights.frequently_run_queries"
+        }
+      ]
+    },
+    {
       "title": "Microsoft Fabric Basics",
       "questions": [
         {
